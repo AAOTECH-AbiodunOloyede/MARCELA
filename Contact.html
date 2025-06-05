@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang = "eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>🌀 AAO's Portfolio</title>
+        <meta name = "viewport" content = "device-width, initia l-scale = 1.0">
+        <style type="text/css">
+         @keyframes identifier {
+            
+        }
+            header{
+                display: flex;
+                justify-content: space-between;
+                padding: 30px 40px;
+                border-bottom: 5px solid #9709e9;
+                background-color: #410055;
+                font-family: 'Aria', sans-serif;        
+            }
+            body{
+                Color: Black;
+                line-height: 20px;
+                font-family: 'Crimson Text', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: bisque;
+                margin: 0;
+                padding: 0;
+            }
+            a{
+                text-decoration: none;
+                color: bisque;
+                font-size: 20px;
+                font-weight: bold;
+                margin: 0 15px;  
+            }
+            a:hover{
+                color: #9709e9;
+            }
+            .form{
+                justify-items: center;
+            }
+            .form-container {
+                margin: 20px;
+                /* margin-left: 820px; */
+              /* /  margin-bottom: 20px; */
+                padding: 15px;
+                background: #9709e9;
+                color: white;
+                box-shadow: 0 5px 10px 0 rgba(41, 40, 40, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+                width: 30%;
+                }
+
+            .input-cnt {
+                display: flex; /* display the icon and the input in a line */
+                margin-bottom: 15px;
+                }
+            .input-cnt:last-child {
+                margin-bottom: 0px;
+                }
+            .input-cnt > i {
+                max-width: 60px; /* It sets a minimum width for the icon */
+                padding: 10px; /* make sure the icon is centered vertically */
+                text-align: center; /* horizontally center the icon */
+                background: lightgrey;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                color: #410055;
+                }
+                /* change styles when focused */
+            .input-cnt:hover > i {
+                background: #410055;
+                color: bisque;
+                }
+                /* style the input and textarea */
+            .input-cnt > input[type="text"], .input-cnt > textarea {
+                outline: none;
+                border: none;
+                padding: 10px;
+                border: 1px solid lightgrey;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 0px;
+                border-bottom-right-radius: 20px;
+                border-bottom-left-radius: 0px;
+                width: 100%;
+                }
+                /* center textarea icon and increase size */
+                .textarea-icon {
+                padding: 60px 10px !important; /* top and bottom paddings are set to 60px */
+                }
+                /* style the submit button */
+            .input-cnt > input[type="submit"] {
+                border: none;
+                border-radius: 20px;
+                outline: none;
+                width: 40%;
+                margin: 0 auto;
+                font-size: 105%;
+                padding: 8px;
+                color: #410055;
+                background: white;
+                transition-duration: .5s;
+                }
+                /* add a hover effect for the submit button */
+            .input-cnt > input[type="submit"]:hover {
+                color: bisque;
+                background: #410055;
+                }
+
+            .footer {
+                background: #410055;
+                color: white;
+                padding: 20px 30px;
+                display: grid;
+                border-top: 5px Solid #9709e9;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 20px;
+            }
+
+            .footer h4 {
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+
+            .footer a {
+                display: block;
+                margin-bottom: 8px;
+                color: bisque;
+                font-size: 14px;
+            }
+            .footer a:hover{
+                color: #9709e9;
+            }
+
+            .footer .contact {
+                font-size: 14px;
+            }
+
+            .copyright {
+                text-align: center;
+                padding: 20px;
+                background-color: #3f3f3f;
+                color: #ccc;
+                font-size: 13px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class = "left"> 
+                <a href="file:///C:/Users/MARCELA/OneDrive/Desktop/My%20Website/home.html" class="logo">🌀 AAO Tech</a>              
+            </div>
+           <div class = "right">
+            <nav class = "nav-links">
+                <a href = "file:///C:/Users/MARCELA/OneDrive/Desktop/My%20Website/home.html">Home</a>
+                <a href = "C:\Users\MARCELA\OneDrive\Desktop\My Website\About.html">About</a>
+                <a href = "C:\Users\MARCELA\OneDrive\Desktop\My Website\Project.htmls">Projects</a>
+                <a href ="C:\Users\MARCELA\OneDrive\Desktop\My Website\Contact.html">Contact</a>
+       
+            </nav>
+           </div>
+        </header>
+        <div class="form">
+            <h2 style="margin-left: 20px; color: #9709e9;"> Sign Up </h2>
+            <div class="form-container" style="justify-content: center;">
+
+            <form action="#" >
+
+                <div class="input-cnt">
+                    <i class="material-icons">person</i>
+                    <input type="text" placeholder="Name" name="name" />
+                </div>
+
+                <div class="input-cnt">
+                    <i class="material-icons">face</i>
+                    <input type="text" placeholder="Username" name="username" />
+                </div>
+
+                <div class="input-cnt">
+                    <i class="material-icons">email</i>
+                    <input type="text" placeholder="Email" name="email" />
+                </div>
+
+                <div class="input-cnt">
+                    <i class="material-icons">lock</i>
+                    <input type="password" placeholder="Password" name="password" />
+                </div>
+
+                <div class="input-cnt">
+                    <input type="submit" value="Sign Up" />
+                </div>
+
+            </form>
+
+            </div>
+
+            <h2 style="margin-left: 20px; color: #9709e9"> Contact Form </h2>
+            <div class="form-container">
+        
+            <form action="#">
+        
+                <div class="input-cnt">
+                <i class="material-icons">person</i>
+                <input type="text" placeholder="Name" name="name" />
+                </div>
+        
+                <div class="input-cnt">
+                <i class="material-icons">email</i>
+                <input type="text" placeholder="Email" name="email" />
+                </div>
+        
+                <div class="input-cnt">
+                <i class="material-icons textarea-icon">message</i>
+                <textarea placeholder="Your message here..." name="message"></textarea>
+                </div>
+        
+                <div class="input-cnt">
+                <input type="submit" />
+                </div>      
+            </form>
+            </div>
+        </div>
+        <footer class="footer">
+        <div>
+          <h4>Abstract</h4>
+          <a href="#">Branches</a>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <a href="#">Blog</a>
+          <a href="#">Help Center</a>
+          <a href="#">Release Notes</a>
+          <a href="#">Status</a>
+        </div>
+        <div>
+          <h4>Community</h4>
+          <a href="#">Twitter</a>
+          <a href="https://www.linkedin.com/in/abiodun-ayomide-oloyede-a69a4b264/" target="https://www.linkedin.com/in/abiodun-ayomide-oloyede-a69a4b264/">LinkedIn</a>
+          <a href="#">Facebook</a>
+          <a href="#">Dribbble</a>
+          <a href="#">Podcast</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="C:\Users\MARCELA\OneDrive\Desktop\My Website\About.html">About Us</a>
+          <a href="C:\Users\MARCELA\OneDrive\Desktop\My Website\Project.html">Project</a>
+          <a href="C:\Users\MARCELA\OneDrive\Desktop\My Website\Contact.html">Contact</a>
+          <div class="contact">
+          <strong>Contact Us</strong><br />
+            aaodecapricorntech.com
+          </div>
+      </footer>
+       <!-- Copyright -->
+       <div class="copyright">
+        © Copyright 2025 AAO TECH. All rights reserved
+     </div> 
+     <script>
+        alert("Welcome to my form page")
+     </script> 
+    </body>  
+</html>
